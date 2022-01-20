@@ -8,10 +8,19 @@
     content: "";
     display: table;
     clear: both;
+} 
+
+.relative{
+    position: relative;
 }
 
-.container{
-    width: 90%;
+.absolute{
+    position: absolute;
+}
+
+.container{ 
+    border: 3px solid black;
+    width: 50%;
 }
 
 #logo{
@@ -33,4 +42,23 @@ li{
     text-align: left;
     display: inline-block;
     color: silver;
+}
+
+#jumbo{
+    height:500px;
+	padding:50px;
+	border-radius:10px;
+	position:relative;
+	background:url(../img/banner.jpg) center / cover;
+}
+
+.jumbo-text{
+    bottom: 40px;
+    width: 55%; 
+    text-align: left;
+    /* color: whitesmoke; */
+}
+
+h2{
+    font-size: 35px;
 }
